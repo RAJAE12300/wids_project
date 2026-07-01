@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Data (souvent trop volumineux pour Git)
+*.csv
+*.pkl
+*.parquet
+data/raw/
+
+# Modèles entraînés (souvent lourds)
+*.pt
+*.pth
+*.h5
+*.model
+saved_models/
+
+# Logs & outputs
+logs/
+*.log
+mlruns/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
